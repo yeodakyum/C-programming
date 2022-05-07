@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    float a = 123.456; //declare variables 
+    int b = 89;
+    printf("float value =  %f \n int value = %d \n product between float and int %f", a, b, a*b); 
+							//calculate and print result
+    return 0; //end 
+}
+

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int input; //declare variables 
+    printf("Enter a dollar amount:");
+    scanf("%d", &input); //take input
+    printf("$20 bills: %d\n", input / 20); //calculate using % operator and print result
+    printf("$10 bills: %d\n", (input%20) / 10); //use %
+    printf("$5 bills: %d\n", ((input%20)%10) / 5);
+    printf("$1 bills: %d\n",  ((input%20)%10)%5);
+    return 0; //end 
+}
+

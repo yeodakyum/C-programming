@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main(){
+  int a,b,c,d,e;//declare variable
+  int grade;
+  printf("Enter five subjects marks:");
+  scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);//take input
+  float percent = (a+b+c+d+e) / 5.0;//declare variable
+  printf("Percentage = %0.2f\n", percent);
+  if(percent >=90) grade = 1;
+  else if (percent >=80) grade = 2;
+  else if (percent >=70) grade = 3;
+  else if (percent >=60) grade = 4;
+  else if (percent >=50) grade = 5;
+  else  grade = 6;
+
+  switch(grade){
+    case 1:
+      printf("Grade A"); break;//print result
+    case 2:
+      printf("Grade B"); break;    
+    case 3:
+      printf("Grade C"); break;
+    case 4:
+      printf("Grade D"); break;
+    case 5:
+      printf("Grade E"); break;
+    case 6:
+      printf("Grade F"); break;
+  }
+  return 0;//end program
+}

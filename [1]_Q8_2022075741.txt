@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    int year, month, date; //declare variables 
+    printf("enter year (XXXX) : "); //print text and take inputs
+    scanf("%d", &year);
+    printf("\nenter month (in number): ");
+    scanf("%d", &month);
+    printf("\nenter birth date: ");
+    scanf("%d", &date);
+    printf("I was born in %d %d %d", year, month, date); //print out the results 
+
+    return 0; //end program
+}
+

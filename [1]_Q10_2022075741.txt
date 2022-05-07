@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    char input; //declare variables 
+    printf("Our university missed one character\n"); //print text
+    printf("H_NYANG UNIVERSITY\n"); //take input
+    printf("please enter character to complete word:");
+    scanf("%c", &input);
+    printf("“\nThank you for filling, this is your fulfill word \nH%cNYANG UNIVERSITY", input); //print results
+
+    return 0; //end program
+}
+

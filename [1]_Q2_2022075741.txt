@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(){
+    printf("1\n2\n3\n4\n5\n"); //print out the numbers with newline
+    return 0; //end the program
+}
+

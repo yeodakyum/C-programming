@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+  int a; //declare variables
+  printf("Enter any number: "); //take input
+  scanf("%d", &a);
+  printf("Original number = %d (in decimal)\n", a); //print values
+  printf("Number after bits are flipped = %d\n", ~a);
+
+  return 0;
+}

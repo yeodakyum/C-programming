@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+    char a; //declare variables
+    int b;
+    float c;
+    printf("Enter input data(only 1 character"); //ask for input
+    scanf("%c", &a);
+    printf("output:%c", a); /print char
+
+    printf("Enter input data(only integer value:"); //ask for input
+    scanf("%d", &b);
+    printf("output as decimal :  %d", b); //output dec, oct, hex
+    printf("output as octal : %o", b);
+    printf("output as hexadecimal : %x", b);
+
+    printf("Enter input data(only floating point number):"); //input float
+    scanf("%f", &c);
+    printf("output : %f", c); //print float
+    printf("output as scientific notation : %e", c);
+
+    return 0;
+  }
+
+
